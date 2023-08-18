@@ -1,0 +1,15 @@
+.container {
+    background-color: skyblue;
+    width: 100%;
+    gap: 10px;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.child {
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
+    border: 1px solid gray;
+}

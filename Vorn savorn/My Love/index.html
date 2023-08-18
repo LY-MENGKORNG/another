@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>របៀបសារភាពស្នេហ៏</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>
+            I  <span style="color: red;">L❤️VE</span>  YOU  IN EVERY UNIVERSE! <br>
+            Do you love me?
+        </h1>
+        <div class="btn-container">
+            <button class="yes">Yes</button>
+            <button class="no">No</button>
+        </div>
+    </main>
+    <script>
+        const yesButton = document.querySelector(".yes")
+        const noButton = document.querySelector(".no")
+
+        noButton.addEventListener("mouseover",function(){
+            function getRandomNumber (){
+                return Math.floor(Math.random() * 200);
+            }
+            noButton.style.left = getRandomNumber() + "px"
+            noButton.style.top = getRandomNumber() + "px"
+        });
+    </script>
+</body>
+</html>

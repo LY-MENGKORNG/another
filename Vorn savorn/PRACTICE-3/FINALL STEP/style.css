@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    display: flex;
+    flex-direction:  column;
+    height: 100vh;
+    align-items: center;
+    gap: 10px;
+}
+nav {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid #dfdfdf;
+}
+.nav-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.icon {
+    display: flex;
+    margin-left: 30px;
+    padding: 10px;
+}
+.nav-center {
+    display: flex;
+    flex: 1;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+}
+button {
+    width: 110px;
+    height: 40px;
+}
+.right-icon {
+    margin-right: 50px;
+    padding: 10px;
+}
+.nav-center,
+.nav-left {
+    height: 100%;
+}
+
+
+/* --header-- */
+header {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    border: 1px solid #dfdfdf;
+    border-radius: 15px;
+    background: url(https://cdn.pixabay.com/photo/2017/07/24/12/43/schrecksee-2534484_1280.jpg);
+}
+.head-top:nth-child(1) {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    margin-right: 50px;
+
+}
+
+.head-bottom {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-radius:  0 0 15px 15px;
+    color: white;
+}
+.left {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    align-items: center;
+    margin-left: 50px;
+}
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.button-top {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.button-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main{
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.main-container {
+    display: flex;
+    width: 71%;
+    height: 90%;
+    gap: 10px;
+}
+.main-left{
+    display: flex;
+    margin-left: 75px;
+    flex: 2;
+    gap: 10px;
+}
+.left-left {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    gap: 20px;
+}
+.left-right {
+    display: flex;
+    flex-direction: column;
+    flex: 6;
+    height: 100%;
+    gap: 10px;
+}
+.right-head {
+    display: flex;
+    width: 97%;
+    flex: 1;
+    border: 1px solid #dfdfdf;
+    border-radius: 15px;
+    align-items: center;
+}
+.right-centent {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+    gap: 10px;
+}
+.content {
+    display: flex;
+    width: 97%;
+    flex: 1;
+    border: 1px solid #dfdfdf;
+    border-radius: 15px;
+    align-items: center;
+}
+.left-top,
+.left-center,
+.left-bottom {
+    flex: 1;
+    border-radius: 15px;
+    border: 1px solid #dfdfdf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+    flex-direction: column;
+    border: 1px solid #dfdfdf;
+    border-radius: 15px;
+    padding: 10px;
+}

@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0;
+
+}
+.navbar1 {
+    background-color: blue;
+    color: white;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding: 10px;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 50px;
+}
+.navbar2 {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    padding: 10px;
+}
+.container {
+    background-color: lightseagreen;
+    display: flex;
+}
+aside {
+    background-color: lightgreen;
+}
+.box-center {
+    background-color: lightseagreen;
+    height: 600px;
+    text-align: center;
+    flex: 1;
+}

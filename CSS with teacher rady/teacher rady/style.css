@@ -1,0 +1,205 @@
+* {
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    background-color: lightslategray;
+    justify-content: space-around;
+}
+.navbar ul {
+    background-color: lightslategray;
+    display: flex;
+    padding: 14px;
+    
+}
+.navbar ul li{
+    background-color: lightslategray;
+    display: flex;
+    padding: 20px;
+}
+.navbar ul li a{
+    color: skyblue;
+    text-transform: uppercase;
+}
+
+header {
+    background-color: turquoise;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(lotus-1205631_1280\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav .welcome {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+button {
+    display: flex;
+    border: none;
+    width: 200px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: skyblue;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: lightgreen;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+
+}
+.menu1 ul {
+    display: flex;
+    flex-direction: row;
+}
+.menu2 ul {
+    display: flex;
+}
+.menu2 ul li {
+    margin: 10px;
+}
+.menu1 ul li{
+    margin: 10px;
+}
+
+.menu1 ul li a,.menu2 ul li a {
+    color: blue;
+    font-size: 20px;
+}
+
+.container {
+    background-color: lightgreen;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 5;
+    gap: 10px;
+    padding: 10px;
+}
+.box1 {
+    background-color: blueviolet;
+    width: 32%;
+    height: 150px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+    background: url(cambodia-g97b104676_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box2 {
+    background: url(cambodia-g97b104676_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 32%;
+    height: 150px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+}
+.box3 {
+    background-color: blueviolet;
+    width: 32%;
+    height: 150px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+    background: url(cambodia-g97b104676_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box4 {
+    background-color: blueviolet;
+    width: 32%;
+    height: 150px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+    background: url(cambodia-g97b104676_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box5 {
+    background-color: blueviolet;
+    width: 32%;
+    height: 150px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+    background: url(cambodia-g97b104676_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box6 {
+    background-color: blueviolet;
+    width: 32%;
+    height: 150px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+    background: url(cambodia-g97b104676_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-2 {
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: space-around;
+    flex: 3;
+    gap: 10px;
+    padding: 10px;
+}
+
+.box-7 {
+    width: 45%;
+    height: 150px;
+    background: limegreen;
+    border-radius: 20px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+}
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightsalmon;
+    flex: 1;
+}

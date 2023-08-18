@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+footer {
+    display: flex;
+    flex: 3;
+    height: 80px;
+}
+
+.left {
+    flex: 1;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    flex: 1;
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right {
+    flex: 1;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 0;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    background-color: skyblue;
+}
+
+nav{
+    background-color: brown;
+    display: flex;
+    flex: 1;
+}
+.container {
+    background-color: tomato;
+    flex: 3;
+}
+
+.box-left {
+    background-color: blue;
+}
+.box-right {
+    background-color: lightgreen;
+}
+footer{
+    background-color: black;
+}

@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.table-container {
+    width: 80%;
+    /* border: 1px solid gray; */
+    margin: auto;
+}
+th {
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid;
+    border-collapse: collapse;
+
+}
+tr,td {
+    border: 1px solid gray;
+    padding: 10px;
+}
+tr:hover {
+    background-color: skyblue;
+    color: black;
+}
+tbody td:nth-child(1) {
+    background-color: pink;
+}
+tbody td:nth-child(4) {
+    background-color: tomato;
+    color: white;
+}

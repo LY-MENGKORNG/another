@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* --navbar-- */
+.nav-top {
+    position: sticky;
+    top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #fff;
+    border-bottom: 0.5px solid lightgray;
+    align-items: center;
+    padding: 20px 0 20px 0;
+}
+.nav-bottom {
+    background-color: darkgray;
+    display: flex;
+    width: 100%;
+}
+.nav-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.google {
+    width: 80px;
+    height: 40px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+h3 {
+    color: rgb(92, 92, 92);
+    font-weight: 500;
+}
+.nav-right {
+    flex: 1;
+    display: flex;
+    margin-right: 30px;
+    gap: 30px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.mypic {
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.fa-bars,
+.material-symbols-outlined,
+.fa-plus {
+    color: rgb(65, 62, 62);
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* --header-- */
+header {
+    display: flex;
+    flex: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+.icon {
+    width: 100px;
+    display: flex;
+    margin-left: 20px;
+    gap: 10px;
+    justify-content: center;
+    height: 30px;
+    align-items: center;
+    border: none;
+    color: lightseagreen;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 14px;
+    font-weight: 500;
+}
+.icon:hover {
+    background-color: rgb(241, 241, 241);
+    color: rgb(28, 212, 202);
+}
+
+/* --main-- */
+main {
+    display: flex;
+    flex: 1;
+    width: 95%;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+.card {
+    width: 299px;
+    height: 310px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 0.5px solid lightgray;
+}
+.name-content {
+    height: 40%;
+    background: url(https://img.freepik.com/premium-vector/mountains-night-flat-color-illustration_151150-1767.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.name-content h2 a,h3 a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.foot-content {
+    height: 20%;
+    border-radius: 0 0 10px 10px;
+    border-top: 0.5px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.fa-address-book-o,
+.fa-folder-o {
+    color: rgb(79, 74, 74);
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+/* --main-- */
+main {
+    display: flex;
+    flex: 1;
+    width: 95%;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+.card {
+    width: 299px;
+    height: 310px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 0.5px solid lightgray;
+}
+.name-content {
+    height: 40%;
+    background: url(https://img.freepik.com/premium-vector/mountains-night-flat-color-illustration_151150-1767.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.name-content h2 a,h3 a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.foot-content {
+    height: 20%;
+    border-radius: 0 0 10px 10px;
+    border-top: 0.5px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.fa-address-book-o,
+.fa-folder-o {
+    color: rgb(79, 74, 74);
+    font-size: 20px;
+    margin-right: 30px;
+}

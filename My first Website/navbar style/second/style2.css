@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    /* background-color: #24252a; */
+}
+a {
+    color: white;
+}
+
+.container {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: #1d1a39;
+    padding: 10px;
+
+}
+
+.child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+.item ul {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.item ul li {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1 a{
+    font-family: 'Gemunu Libre', sans-serif;
+    font-weight: 600;
+    color: white;
+    margin-left: 100px;
+}
+
+/* icon */
+.fa-address-card,
+.fa-hand-holding-heart,
+.fa-cog,
+.fa-headphones {
+    color: white;
+    font-size: 25px;
+}
+.fa-address-card:hover,
+.fa-hand-holding-heart:hover,
+.fa-cog:hover,
+.fa-headphones:hover {
+    color: #1d1a39;
+}
+
+.btn-icon {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: #1d1a39;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn-icon:hover{
+    background-color: white;
+}
+.btn-signin {
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0.5px solid white;
+    background-color: #1d1a39;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.btn-signin:hover{
+    background-color: #2b255a;
+
+}
+
+
+.btn-signin a {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 15px;
+    color: white;
+}
+.btn-signin a:hover{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 15px;
+    /* color: #1d1a39; */
+}
+
+.container-2 {
+    /* position: relative; */
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.instruction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40%;
+    height: 70vh;
+    margin-left: 150px;
+}
+
+.instruction h1 {
+    font-family: 'Gemunu Libre', sans-serif;
+    font-weight: normal;
+    font-size: 60px;
+}

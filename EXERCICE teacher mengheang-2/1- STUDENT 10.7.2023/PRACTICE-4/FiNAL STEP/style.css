@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+/* --navbar-- */
+nav {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #c1c1c1;
+}
+.nav-left {
+    flex: 1;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    gap: 20px;
+}
+.nav-left .logo{
+    margin-left: 50px;
+}
+.fa-facebook-official {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+.nav-left .search-box {
+    height: 50%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-right {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+    gap: 30px;
+}
+.nav-right .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.nav-left .search-box input[type = text]{
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    border: none;
+    font-size: 18px;
+    padding-left: 10px;
+    border: 1px solid #c1c1c1;
+}
+.nav-center {
+    flex: 2;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* --container-- */
+.container {
+    flex: 9;
+    display: flex;
+}
+
+/* --aside left-- */
+.aside-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid #c1c1c1;
+}
+.aside-left .top {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.top .home-top,
+.top .home-bottom {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #c1c1c1;
+}
+.aside-left .bottom {
+    flex: 3;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* main */
+main {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+.main-header {
+    display: flex;
+    flex: 3;
+    align-items: center;
+    justify-content: center;
+}
+.main-header .header-story {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.story {
+    display: flex;
+    width: 23%;
+    align-items: center;
+    justify-content: center;
+    height: 95%;
+    border-radius: 15px;
+    background: url(https://cdn.pixabay.com/photo/2016/10/21/09/25/rocks-1757593_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.comment-card {
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+}
+.comment-card .comment {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+
+}
+.comment .top {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #c1c1c1;
+    border-bottom: 1px solid #c1c1c1;
+}
+.top .profile {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #c1c1c1;
+}
+.top .comment-box {
+    flex: 7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.comment .bottom {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.comment .bottom .center:nth-child(2) {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    border: 1px solid #c1c1c1;
+}
+.comment .bottom .center:nth-child(1),
+.comment .bottom .center:nth-child(3){
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.main-content {
+    display: flex;
+    flex: 4;
+    align-items: center;
+    justify-content: center;
+}
+.main-content .content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.content .top {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #c5c5c5;
+}
+.content .img {
+    display: flex;
+    flex: 4;
+    align-items: center;
+    justify-content: center;
+    background: url(https://cdn.pixabay.com/photo/2017/07/24/12/43/schrecksee-2534484_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* aside right*/
+.aside-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 1px solid #c1c1c1;
+}
+.aside-right .top {
+    flex: 2;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aside-right .center {
+    flex: 1.5;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #c1c1c1;
+    border-bottom: 1px solid #c1c1c1;
+}
+.aside-right .bottom {
+    flex: 3;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

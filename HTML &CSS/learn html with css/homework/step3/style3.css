@@ -1,0 +1,26 @@
+body{
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.kon1{
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+
+.kon2{
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+h1{
+    color: teal;
+    font-weight: 300;
+    
+}
+p{
+    font-size: large;
+}

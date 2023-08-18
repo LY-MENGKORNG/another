@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* --Header-- */
+header {
+    flex: 4;
+    width: 75%;
+    background-color: pink;
+    border-radius: 18px;
+    margin-top: 20px;
+    background: url(https://i.redd.it/w2sld6a08d301.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-top {
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.button-header {
+    background-color: white;
+    width: 120px;
+    height: 35px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    font-size: 16px;
+    color: (255, 255, 255, 0.1);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.button-header:hover {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    color: white;
+}
+.header-bottom {
+    width: 95%;
+    color: white;
+    margin-bottom: 20px;
+}

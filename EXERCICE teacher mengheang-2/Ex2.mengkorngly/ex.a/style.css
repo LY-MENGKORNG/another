@@ -1,0 +1,23 @@
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+
+
+}
+div p:nth-child(1) {
+    color: red;
+
+}
+.container .child p:nth-child(2) {
+    color: red;
+
+}
+
+.container p:nth-child(3){
+    color:blue;
+
+}
+.container p:nth-child(4){
+    color:blue;
+
+}

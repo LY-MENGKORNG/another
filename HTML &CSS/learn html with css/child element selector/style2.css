@@ -1,0 +1,9 @@
+div ul li:nth-child(1){
+    color: green;
+}
+div ul li:nth-child(2){
+    color: red;
+}
+div ul li:nth-child(3){
+    color: blue;
+}

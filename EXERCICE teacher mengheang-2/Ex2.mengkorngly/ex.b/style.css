@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background:linear-gradient(skyblue, lightgreen);background-repeat: no-repeat;
+    margin: 0;
+}
+
+.child {
+    background:linear-gradient(lightseagreen, blue);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+span {
+    color: rgb(16, 16, 53);
+    font-style: italic;
+    font-weight: 600;
+}
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+}

@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+/* --navbar-- */
+nav {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    background-color: pink;
+}
+
+/* --container-- */
+.container {
+    flex: 9;
+    display: flex;
+}
+.aside-left {
+    background-color: skyblue;
+    flex: 1;
+}
+main {
+    flex: 3;
+    background-color: #fff;
+}
+.aside-right {
+    background-color: skyblue;
+    flex: 1;
+}

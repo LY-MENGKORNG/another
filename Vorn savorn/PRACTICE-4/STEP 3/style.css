@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+/* --navbar-- */
+nav {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    background-color: pink;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left,
+.nav-right {
+    flex: 1;
+    display: flex;
+    border: 1px solid #f4f4f4;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-center {
+    flex: 2;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* --container-- */
+.container {
+    flex: 9;
+    display: flex;
+}
+
+/* --aside left-- */
+.aside-left {
+    background-color: skyblue;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aside-left .top {
+    flex: 1;
+    background-color: darkcyan;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.aside-left .bottom {
+    flex: 3;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* main */
+main {
+    flex: 3;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.main-header {
+    display: flex;
+    flex: 3;
+    background-color: tomato;
+    align-items: center;
+    justify-content: center;
+}
+.main-header .header-story {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.story {
+    display: flex;
+    width: 23%;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    height: 95%;
+    border-radius: 15px;
+}
+.comment-card {
+    display: flex;
+    flex: 2;
+    background-color: lightgreen;
+    align-items: center;
+    justify-content: center;
+}
+.comment-card .comment {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.comment .top {
+    flex: 1;
+    background-color: #6e6969;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comment .bottom {
+    flex: 1;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-content {
+    display: flex;
+    flex: 4;
+    background-color: lightseagreen;
+    align-items: center;
+    justify-content: center;
+}
+.main-content .content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.content .top {
+    flex: 2;
+    background-color: rgb(81, 47, 41);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content .img {
+    display: flex;
+    flex: 4;
+    align-items: center;
+    justify-content: center;
+}
+
+/* aside right*/
+.aside-right {
+    background-color: skyblue;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aside-right .top {
+    flex: 2;
+    background-color: #d95858;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aside-right .center {
+    flex: 1.5;
+    width: 100%;
+    background-color: lightseagreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.aside-right .bottom {
+    flex: 3;
+    width: 100%;
+    background-color: chocolate;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

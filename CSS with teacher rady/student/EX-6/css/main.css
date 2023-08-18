@@ -1,0 +1,63 @@
+body {
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* this is menu bar */
+.menu {
+    background: #a24343;
+    flex:0.5;
+}
+
+/* this is nav bar */
+nav {
+    background: blue;
+    flex:0.3;
+}
+
+/* this is container that contained elements such as: content<boxes, aside<side-boxes*/
+.container {
+    flex:5;
+    display: flex;
+}
+
+
+/* this is content boxes */
+.content {
+    flex: 4;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.box {
+    background: #c05858;
+    color: #fff;
+    width: 48%;
+}
+
+
+/* this is aside boxes */
+aside {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.side-box {
+    background: #2eb15c;
+   flex: 1;
+    
+}
+.box,
+.side-box,
+nav,
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2rem;
+}

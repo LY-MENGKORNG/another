@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+/* --navbar-- */
+nav {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    background-color: pink;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* --container-- */
+.container {
+    flex: 9;
+    display: flex;
+}
+.aside-left {
+    background-color: skyblue;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* main */
+main {
+    flex: 3;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.main-header {
+    display: flex;
+    flex: 3;
+    background-color: tomato;
+    align-items: center;
+    justify-content: center;
+}
+.comment-card {
+    display: flex;
+    flex: 2;
+    background-color: lightgreen;
+    align-items: center;
+    justify-content: center;
+}
+.main-content {
+    display: flex;
+    flex: 4;
+    background-color: lightseagreen;
+    align-items: center;
+    justify-content: center;
+}
+
+/* aside */
+.aside-right {
+    background-color: skyblue;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,40 @@
+/* (this is universal selector) */
+/* * {
+    color: aqua;
+} */
+
+
+/* (this is group selector) */
+/* h1, p, li, h3{
+    color: tomato;
+} */
+
+/* (this is attribute selector) */
+
+
+/* (this is attribute selector) */
+/* [href] {
+    text-decoration: none;
+}
+
+[type="text"]{
+    color: gray;
+}
+
+.text {
+    border-color: aqua;
+    cursor: pointer;
+}
+.text:hover{
+    color: black;
+}
+#abc {
+    border-color: lightgreen;
+} */
+
+
+::selection{
+    background: pink;
+    color: rgb(4, 0, 218);
+}
+
